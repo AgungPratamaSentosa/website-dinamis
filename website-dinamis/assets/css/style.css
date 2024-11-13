@@ -1,0 +1,51 @@
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-container {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 2em;
+    width: 400px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+p {
+    margin: 0.5em 0;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.contact-info {
+    margin: 1.5em 0;
+}
+
+.contact-item {
+    margin-bottom: 1em;
+}
+
+.contact-item span {
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-item a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+</style>
